@@ -1,86 +1,11 @@
-<mat-sidenav-container>
+<!-- <mat-sidenav-container>
   <mat-sidenav #sidenav role navigation>
    <app-sidenav (closeSidenav)="sidenav.close()"></app-sidenav>
   </mat-sidenav>
   <mat-sidenav-content>
-<app-headnav (sidenavToggle)="sidenav.toggle()"></app-headnav>
-      <main>
- <section id="intro">
-    <div class="intro-container wow fadeIn">
-      <img src="https://i.ibb.co/WfGjFTn/240016106-349321013549047-1696668530386214491-n-removebg-preview.png" alt="OIST logo">
-      <h1 style="color: #72a8ff; font-family: 'Space Mono', monospace;
-      font-weight: 400; font-size: xx-large;">
-    Oriental Hackathon 2k23
-      </h1>
-      <div class="col-lg-12 col-md-12 col-xs-12">
-        <div class="supporter-logo">
-          <p>powered by</p>
-          <a href="https://www.linkedin.com/company/cybrom-technology/">
-            <img src="https://ik.imagekit.io/blackr/cybrom_long.png?" traget="" alt="cybrom logo" style="width: 18rem;">
-          </a>
-        </div>
-      </div>
-      <br>
-      <p style="font-size: medium;">IT Department, Oriental Institute Of Science And Technology, Bhopal</p>
-    </div>
-  </section>
-  <br>
+<app-headnav (sidenavToggle)="sidenav.toggle()"></app-headnav> -->
+ 
+<router-outlet></router-outlet>
+  <!-- </mat-sidenav-content> -->
 
-  <!-- <a href="https://m.paytm.me/ogic_nrweb">
-    <div style="--glow-color: hsl(186 100% 69%); text-align: center; max-width: 80vw; margin: auto; ">
-      <a style="text-align: center;" href="https://m.paytm.me/ogic_nrweb" class="about-btn scrollto">Click Below To Register</a>
-      <br><br>
-      <button class='glowing-btn'><span class='glowing-txt'>Re<span class='faulty-letter'>gister</span> Now!</span></button>
-    </div>
-  </a> -->
-
-  <!-- Add the events, sponsors, schedule, and FAQ components here -->
-  <app-events></app-events>
-  <app-sponsors></app-sponsors>
-  <app-schedule></app-schedule>
-  <app-faq></app-faq>
-
-  <div class="section-header" id="venue">
-    <h2>Event Venue</h2>
-    <p class="mb-4 pb-0">Oriental Institute Of Science And Technology, Raisen Rd, opp. Patel Nagar, Patel Nagar, Bhopal,
-      Madhya Pradesh 462022</p>
-  </div>
-  <div class="venue-map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.8474768268848!2d77.50004501489492!3d23.24863668483905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c41e4394f4f87%3A0xb3bba34206ce5dec!2sOriental%20Institute%20of%20Science%20%26%20Technology%20-%20Top%20Engineering%20Colleges%20in%20Bhopal!5e0!3m2!1sen!2sin!4v1676997430786!5m2!1sen!2sin"
-      frameborder="0" style="border: 0" allowfullscreen></iframe>
-  </div>
-
-  <footer class="footercontainer text-white py-3">
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <a href="https://blackrindustries.weebly.com/">
-            <h2 class="mb-0">Contact Us</h2>
-          </a>
-        </div>
-      </div> -->
-
-        <!-- <div class="col-md-6"> -->
-          <!-- Add the form here using Angular Material components -->
-          <!-- <div class="row mt-3">
-            <div class="col-md-6">
-              <form (ngSubmit)="onSubmit()">
-                <div class="mb-3">
-                  <input type="text" class="form-control" id="name" placeholder="Full Name" [(ngModel)]="name" name="name" required>
-                </div>
-                <div class="mb-3">
-                  <input type="text" class="form-control" id="email" placeholder="Email / Phone No" [(ngModel)]="email" name="email" required>
-                </div>
-                <div class="mb-3">
-                  <textarea type="text" class="form-control" id="comments" placeholder="comments" [(ngModel)]="comments" name="comments"></textarea>
-                </div>
-                <button type="submit" class="btn btn-secondary">Send</button>
-              </form> -->
-             <div class="col-md-6 text-md-end">
-              <p><a href="https://blackrindustries.weebly.com/" style="color: #ffd800; text-decoration: none;">BlackR Industries <sup>©</sup></a></p>
-              </div>
-  </footer>
-</main>
-  </mat-sidenav-content>
-
-</mat-sidenav-container>
+<!-- </mat-sidenav-container> -->

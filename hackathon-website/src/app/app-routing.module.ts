@@ -7,9 +7,10 @@ import { EventsComponent } from './events/events.component';
 import { ThemeComponent } from './theme/theme.component';
 import { FaqComponent } from './faq/faq.component';
 import { ApplyComponent } from './apply/apply.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: '', component: AboutComponent },
+  { path: '', component: HomeComponent },
   { path: 'about', component: AboutComponent },
   { path: 'sponsors', component: SponsorsComponent },
   { path: 'schedule', component: ScheduleComponent },

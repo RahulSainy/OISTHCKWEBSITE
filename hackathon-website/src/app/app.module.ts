@@ -15,9 +15,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SidenavComponent } from './nav/sidenav/sidenav.component';
 import { HeadnavComponent } from './nav/headnav/headnav.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { ReactiveFormsModule } from '@angular/forms';
+
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
+    HomeComponent,
     SidenavComponent,
     HeadnavComponent,
     AppComponent,
@@ -30,12 +35,13 @@ import { FormsModule } from '@angular/forms';
     ApplyComponent
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FlexLayoutModule,
+  BrowserModule,
     BrowserAnimationsModule,
+    AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule,
     MaterialModule,
-    FormsModule  
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
